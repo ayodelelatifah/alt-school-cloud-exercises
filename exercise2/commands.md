@@ -1,7 +1,8 @@
 # 10 Linux Commands
 
 # Linux Command 1 - `man`
-![Linux Command 1 Screenshot](images/man.png)
+![Linux Command 1 Screenshot](./images/man.png)
+
 # Linux Command 1 Examples
 ![Linux Command 1 Examples](images/manexamples.png)
 # Output for `man ls`
