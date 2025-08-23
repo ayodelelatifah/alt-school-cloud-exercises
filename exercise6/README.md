@@ -12,9 +12,9 @@
 
 ### 1. Create Users  
 ```bash
-sudo adduser mary
-sudo adduser joseph
-sudo adduser john
+sudo useradd mary
+sudo useradd joseph
+sudo useradd john
 ```
 
 ### 2. Create File 
@@ -25,13 +25,13 @@ touch index.js
 ### 3. Assign Permissions
 ``` bash
 # john → Read
-sudo setfacl -m u:mary:r-- index.js
+sudo setfacl -m u:john:r-- index.js
 
 # Joseph → Write
 sudo setfacl -m u:joseph:-w- index.js
 
 # mary → Execute
-sudo setfacl -m u:john:--x index.js
+sudo setfacl -m u:mary:--x index.js
 ```
 
 ### 4. Verify Permissions
